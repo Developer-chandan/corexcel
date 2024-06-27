@@ -1,0 +1,5 @@
+.carousel-item.active {
+    display: flex;
+}
+
+.carousel-content {width: 507px;align-self: center;justify-content: center;margin: 0 auto;}
