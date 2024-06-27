@@ -2,4 +2,24 @@
     display: flex;
 }
 
-.carousel-content {width: 507px;align-self: center;justify-content: center;margin: 0 auto;}
+.carousel-content {width: 100%;align-self: center;justify-content: center;margin: 0 auto;background: #e9ebed;padding: 2rem 0;}
+
+.carousel-item {
+    background: #d4d7db;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+
+.carousel-content{
+    position: relative;
+}
+
+
+
+
+
+
+ 
