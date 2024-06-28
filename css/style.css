@@ -166,11 +166,13 @@ section#businss_services {background: #d4d7db;}
     position: absolute;
     content: "";
     background: url(../images/rectangle-shape.png);
-    height: 370px;
-    width: 270px;
-    top: 45px;
-    right: -30px;
-    background-size: 266px;
+    /* height: 370px; */
+    /* width: 270px; */
+    top: 50%;
+    background-position: center;
+    transform: translateY(-50%);
+    right: -31px;
+    background-size: 262px;
     background-repeat: no-repeat;
     z-index: -1;
 }
@@ -220,7 +222,7 @@ section#businss_services {background: #d4d7db;}
     position: absolute;
     content: "";
     width: 100%;
-    height: 42px;
+    height: 41px;
     background: #e9ebed;
     top: 50%;
     z-index: 0;
@@ -303,9 +305,10 @@ section#businss_services {background: #d4d7db;}
  position: relative;
  background: blue;
  width: 15px;
- height: 41px;
  position: absolute;
- left: 0;
+ left: 10px;
+ top: 50%;
+ transform: translateY(-50%);
  }
   .shape::after {
     content: "";
@@ -335,5 +338,100 @@ section#businss_services {background: #d4d7db;}
 }
 
 .Medical .shape {
-    left: -25px;
+    left: -2px;
+}
+
+.margin_control {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.featured_prodect h4 {
+    color: #97989a;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.featured_card_wrap {
+    display: flex;
+    gap: 14px;
+}
+
+.product_details_box h2 {
+    background: #2090d0;
+    padding: 17px 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 78px;
+}
+
+.product_details_box {
+    border: 1px solid #1ab8bc;
+    border-radius: 6px;
+    max-width: 236px;
+}
+
+.product_details_box p {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.product_details_box.right h2 {
+    background: #1ab8bc;
+}
+
+.course_details h3 {
+    color: #283c7b;
+    font-size: 22px;
+    text-align: center;
+    line-height: 25px;
+    padding: 1.2rem 0;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.course_details ul li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 7px;
+    text-decoration: underline;
+}
+
+.course_details ul li::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: red;
+    left: -14px;
+    top: 10px;
+}
+
+.course_details {
+    padding: 1rem 4rem;
+}
+.product_details_box.right_right h2,
+.product_details_box.right_left h2 {
+    background: orange;
+    padding: 0;
+    align-items: center;
+    padding-left: 18px;
+    line-height: 29px;
+    padding-top: 5px;
+}
+
+.product_details_box.right_left {
+    border-color: orange;
+}
+
+.product_details_box.right_right h2 {
+    background: #394e8b;
+}
+
+.product_details_box.right_right {
+    border-color: #394e8b;
 }
