@@ -435,3 +435,13 @@ section#businss_services {background: #d4d7db;}
 .product_details_box.right_right {
     border-color: #394e8b;
 }
+
+section#featured_product {
+    background: #e9ebed;
+    padding: 2.5rem 0;
+}
+
+.landing_page_wrap{
+padding-left: 0;
+padding-right: 0;
+}
