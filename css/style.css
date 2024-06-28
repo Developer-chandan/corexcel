@@ -63,10 +63,9 @@
 .offering_wrap h3 {
     text-align: center;
     padding: 3rem .6rem;
-    font-size: 38px;
+    font-size: 33px;
     color: #283b7a;
     font-weight: 400;
-   
 }
 section#businss_services {background: #d4d7db;}
 
@@ -91,8 +90,8 @@ section#businss_services {background: #d4d7db;}
     position: absolute;
     content: "";
     width: 100%;
-    height: 70px;
-    background: #f0f0f0;
+    height: 42px;
+    background: #e9ebed;
     top: 50%;
     z-index: 0;
     transform: translateY(-50%);
@@ -120,6 +119,183 @@ section#businss_services {background: #d4d7db;}
 .Medical h3 ,
 .business_box h3 {
     padding-left: 66px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.Medical img ,
+.business_box img {
+   max-width: 250px;
+}
+
+.landing-page{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.carousel-item.active {
+    display: flex;
+}
+
+.carousel-content {width: 100%;align-self: center;justify-content: center;margin: 0 auto;background: #e9ebed;padding: 3rem 0;}
+
+.carousel-item {
+    background: #d4d7db;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+
+.carousel-content{
+    position: relative;
+    margin-left: -56px;
+    padding-left: 7rem;
+}
+.carousel-image {
+    z-index: 10;
+}
+
+.carousel-image {
+    position: relative;
+    display: block;
+}
+
+.carousel-image::before {
+    position: absolute;
+    content: "";
+    background: url(../images/rectangle-shape.png);
+    height: 370px;
+    width: 270px;
+    top: 45px;
+    right: -30px;
+    background-size: 266px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.carousel-content h2 {
+    color: #ef7b30;
+}
+
+.carousel-content p {
+    font-size: 18px;
+}
+
+.carousel-content .btn {
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.offering_wrap h3 {
+    text-align: center;
+    padding: 3rem .6rem;
+    font-size: 33px;
+    color: #283b7a;
+    font-weight: 400;
+}
+section#businss_services {background: #d4d7db;}
+
+.business_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+.Medical {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bueinss_wrap {
+    position: relative;
+}
+
+.bueinss_wrap::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 42px;
+    background: #e9ebed;
+    top: 50%;
+    z-index: 0;
+    transform: translateY(-50%);
+}
+
+.bueinss_wrap .container-fluid {
+    z-index: 9999999;
+}
+
+
+.Medical h3 ,
+.business_box h3 ,
+.business_box img ,
+.Medical img {
+    z-index: 999;
+    font-weight: 400;
+    color: #ef7b30;
+}
+
+.business_box,
+.Medical{
+    position: relative;
+}
+
+.Medical h3 ,
+.business_box h3 {
+    padding-left: 66px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.Medical img ,
+.business_box img {
+   max-width: 179px;
+}
+
+.shape {
+ display: block;
+ position: relative;
+ background: blue;
+ width: 15px;
+ height: 41px;
+ position: absolute;
+ left: 0;
+ }
+  .shape::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 9px solid blue;
+    border-top: 9px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .shape::before {
+    content: "";
+    position: absolute;
+    right: -7px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 8px solid blue;
+    border-top: 22px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .bueinss_wrap .container-fluid {
+    padding-left: 0;
+    padding-right: 12px;
+}
+
+.Medical .shape {
+    left: -25px;
 }
 
 .shape {
