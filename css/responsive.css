@@ -171,6 +171,24 @@ font-size: 30px;
         width: 22px;
         fill: #bcbcbc;
     }
+   
+    .carousel-control-next {
+        right: 7px;
+    }
+    .carousel-control-prev{
+        left: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
