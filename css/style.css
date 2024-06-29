@@ -1,6 +1,8 @@
-.landing-page{
+#landing-page{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 .carousel_wrp {
     display: flex;
@@ -15,7 +17,9 @@
 .carousel-item {
     position: relative;
 }
-
+.carousel-content .btn-success {
+    background: #2dad4e;
+}
 
 .carousel-content{
     position: relative;
@@ -24,6 +28,15 @@
 }
 .carousel-image {
     z-index: 10;
+}
+span.slide_icon {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    padding: 1px;
+    display: grid;
+    place-items: center;
 }
 
 .carousel-image {
@@ -38,18 +51,11 @@ img.rectangle-shape {
     right: -30px;
     z-index: -1;
 }
-/* .carousel-image::before {
-    position: absolute;
-    content: "";
-    background: url(../images/rectangle-shape.png);
-    height: 370px;
-    width: 270px;
-    top: 45px;
-    right: -30px;
-    background-size: 266px;
-    background-repeat: no-repeat;
-    z-index: -1;
-} */
+a.title_link {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 
 .carousel-content h2 {
     color: #ef7b30;
@@ -65,7 +71,13 @@ img.rectangle-shape {
     padding-left: 10px;
     padding-right: 10px;
 }
-
+span.slide_icon svg {
+    width: 34px;
+    fill: #bcbcbc;
+}
+.carousel-content svg {
+    width: 19px;
+}
 .offering_wrap h3 {
     text-align: center;
     padding: 3rem .6rem;
@@ -80,6 +92,10 @@ section#businss_services {background: #d4d7db;}
     align-items: center;
     justify-content: space-between;
     z-index: 9999;
+}
+
+.course_details ul li a {
+    color: #394e8b;
 }
 
 .Medical {
@@ -199,7 +215,7 @@ section#businss_services {background: #d4d7db;}
 
 .offering_wrap h3 {
     text-align: center;
-    padding: 3.5rem .6rem;
+    padding: 4rem 3.6rem;
     font-size: 33px;
     color: #283b7a;
     font-weight: 400;
@@ -363,7 +379,7 @@ section#businss_services {background: #d4d7db;}
     gap: 14px;
 }
 
-.product_details_box h2 {
+.product_details_box .title_link {
     background: #2090d0;
     padding: 17px 20px;
     color: white;
@@ -385,7 +401,7 @@ section#businss_services {background: #d4d7db;}
     font-size: 16px;
 }
 
-.product_details_box.right h2 {
+.product_details_box.right .title_link {
     background: #1ab8bc;
 }
 
@@ -419,8 +435,8 @@ section#businss_services {background: #d4d7db;}
 .course_details {
     padding: 1rem 4rem;
 }
-.product_details_box.right_right h2,
-.product_details_box.right_left h2 {
+.product_details_box.right_right .title_link,
+.product_details_box.right_left .title_link {
     background: #ef7b30;;
     padding: 0;
     align-items: center;
@@ -433,7 +449,7 @@ section#businss_services {background: #d4d7db;}
     border-color: #ef7b30;;
 }
 
-.product_details_box.right_right h2 {
+.product_details_box.right_right .title_link {
     background: #394e8b;
 }
 
@@ -502,4 +518,20 @@ section.call_us {
 }
 button.carousel-control-prev {
     z-index: 999;
+}
+
+.product_details_box p a{
+    color: #273b79
+}
+
+.title_link h2{
+    font-size: 28px;
+}
+.title_link{
+    text-decoration: none;
+}
+
+a.title_link span svg {
+    width: 27px;
+    fill: #ececec78;
 }
