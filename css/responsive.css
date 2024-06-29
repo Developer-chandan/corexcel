@@ -113,4 +113,73 @@ font-size: 30px;
         display: flex;
         gap: 23px;
     }
+    img.main_img {
+        max-width: 126px;
+    }
+    img.rectangle-shape {
+        max-width: 91px;
+    }
+    .carousel-content h2 {
+        font-size: 19px;
+    }
+    
+}
+
+
+
+@media(max-width:575px){
+    .carousel-content .btn {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 5px;
+    }
+    img.main_img {
+        max-width: 126px;
+        display: none;
+    }
+    img.rectangle-shape {
+        display: none;
+    }
+    .carousel-content {
+        padding: 2.8rem 0;
+        padding-left: 5rem;
+    }
+    .carousel-content {
+        position: relative;
+        margin-left: 0;
+       
+    }
+    .carousel-content {
+    background: linear-gradient(#000000b8, rgb(0 0 0 / 51%), rgb(0 0 0 / 46%), rgba(0, 0, 0, 0.371)), url(../images/Screenshot_6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    .carousel-content {
+        padding: 6.8rem 1rem;
+        padding-left: 0;
+        text-align: center;
+        height: 363px;
+    }
+    .carousel-content h2 {
+        font-size: 40px;
+        color: white;
+    }
+    .carousel-content h2 {
+        font-size: 40px;
+        color: white;
+    }
+    span.slide_icon {
+        width: 35px;
+        height: 35px;
+       
+    }
+    .carousel-content p {
+        font-size: 14px;
+        color: white;
+    }
+    span.slide_icon svg {
+        width: 22px;
+        fill: #bcbcbc;
+    }
 }
