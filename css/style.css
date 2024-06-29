@@ -535,3 +535,8 @@ a.title_link span svg {
     width: 27px;
     fill: #ececec78;
 }
+
+.product_details_box.right_right .title_link,
+.product_details_box.right_left .title_link {
+    padding-right: 1rem;
+}

@@ -122,17 +122,6 @@ font-size: 30px;
     .carousel-content h2 {
         font-size: 19px;
     }
-    
-}
-
-
-
-@media(max-width:575px){
-    .carousel-content .btn {
-        font-size: 14px;
-        line-height: 22px;
-        padding-bottom: 5px;
-    }
     img.main_img {
         max-width: 126px;
         display: none;
@@ -181,5 +170,21 @@ font-size: 30px;
     span.slide_icon svg {
         width: 22px;
         fill: #bcbcbc;
+    }
+}
+
+
+
+@media(max-width:575px){
+    .carousel-content .btn {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 5px;
+    }
+  
+    
+    .product_details_box .title_link {
+        
+        height: 70px;
     }
 }
