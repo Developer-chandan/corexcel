@@ -139,11 +139,16 @@ font-size: 30px;
         margin-left: 0;
        
     }
-    .carousel-content {
+    .carousel-content.second ,
+    .carousel-content.first {
     background: linear-gradient(#000000b8, rgb(0 0 0 / 51%), rgb(0 0 0 / 46%), rgba(0, 0, 0, 0.371)), url(../images/Screenshot_6.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    }
+    .carousel-content.first {
+    background: linear-gradient(#000000b8, rgb(0 0 0 / 51%), rgb(0 0 0 / 46%), rgba(0, 0, 0, 0.371)), url(../images/medical-image.png);
+   
     }
     .carousel-content {
         padding: 6.8rem 1rem;
@@ -246,5 +251,9 @@ transform: translateX(-50%);
         height: 35px;
         background: #ef7b30;
      
+    }
+    .carousel-content svg {
+        width: 14px;
+        margin-bottom: 1px;
     }
 }
