@@ -51,6 +51,9 @@ img.rectangle-shape {
     right: -30px;
     z-index: -1;
 }
+.carousel-control-prev, .carousel-control-next{
+    opacity: .8;
+}
 a.title_link {
     display: flex;
     width: 100%;

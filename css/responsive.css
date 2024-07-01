@@ -9,6 +9,7 @@
     
     section#carousel {
         max-height: 443px;
+        position: relative;
     }
     img.rectangle-shape {
         position: absolute;
@@ -155,13 +156,15 @@ font-size: 30px;
         color: white;
     }
     .carousel-content h2 {
-        font-size: 40px;
+        font-size: 34px;
         color: white;
     }
+
     span.slide_icon {
         width: 35px;
         height: 35px;
-       
+        background: #ef7b30;
+     
     }
     .carousel-content p {
         font-size: 14px;
@@ -169,7 +172,7 @@ font-size: 30px;
     }
     span.slide_icon svg {
         width: 22px;
-        fill: #bcbcbc;
+        fill: #ffffff;
     }
    
     .carousel-control-next {
@@ -178,9 +181,35 @@ font-size: 30px;
     .carousel-control-prev{
         left: 5px;
     }
+    .carousel-control-prev,
+    .carousel-control-next{
+        position: absolute;
+        z-index: 99999;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+        bottom: 0;
+        width: 50px;
+        height: 50px;
+        top: 307px;
+    }
 
-
-
+    
+    .carousel-control-prev {
+ 
+left: 42%;
+ 
+transform: translateX(-50%);
+}
+     .carousel-control-next{
+ 
+right: 31%;
+ 
+transform: translateX(-50%);
+}
 
 
 
@@ -204,5 +233,18 @@ font-size: 30px;
     .product_details_box .title_link {
         
         height: 70px;
+    }
+    /* section#carousel {
+        height: 650px;
+      } */
+      .carousel-content {
+        padding: 6.8rem 1rem;
+        height: 386px;
+    }
+    span.slide_icon {
+        width: 35px;
+        height: 35px;
+        background: #ef7b30;
+     
     }
 }
