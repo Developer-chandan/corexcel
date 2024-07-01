@@ -81,9 +81,11 @@ font-size: 30px;
     }
     .offering_wrap h3 {
     
-        padding: 2rem 0.6rem;
-        font-size: 19px;
-     
+padding: 2rem 0.6rem;
+    
+font-size: 19px;
+    
+padding-top: 2.3rem;
     }
     .Medical img, .business_box img {
         max-width: 123px;
